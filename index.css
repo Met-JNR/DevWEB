@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #f3fcff;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Barre de menu*/
+.navbar {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: white;
+    border-style: inset;
+    border-color: #417f92;
+}
+
+.navbar a {
+    color: #2f7287;
+}
+
+.navbar .logo {
+    padding: 0 67px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #125e76;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar #menuD {
+    display: flex;
+}
+
+.navbar #menuD li {
+    margin: 0 18px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar .nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links {
+    padding: 10px;
+    background-color: #125e76;
+}
+
+.navbar .nav-links a {
+    color: white;
+}
+
+/* Corps
+Partie 1*/
+.para1 .tech {
+    margin-top: 70px;
+    float: right;
+    margin-right: 170px;
+}
+
+.para1 .p1 {
+    margin-left: 150px;
+    margin-top: 120px;
+    font-size: 22px;
+}
+
+.para1 .p1 #parba {
+    font-size: 62px;
+    font-weight: bolder;
+    color: #125e76;
+}
+
+.bouton {
+    font-weight: bolder;
+    margin-top: 79px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 342px;
+    word-spacing: 95px;
+
+}
+
+#b1 {
+    color: white;
+    background-color: #125e76;
+    padding: 21px 39px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 23px;
+    border-style: none;
+}
+
+#b2 {
+    background-color: #f3fcff;
+    border-radius: 9px;
+    border-color: #125e76;
+    cursor: pointer;
+    color: #125e76;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 16px 32px;
+    border-color: #125e76;
+}
+.telech{
+    font-size: 15px;
+    margin-right: -160px;
+    margin-top: -20px;
+}
+
+.res{
+    font-size: 23px;
+    font-weight: bold;
+    margin-right: -160px;
+    margin-top: -25px;
+}
+/*Partie2*/
+.para2 {
+    background-color: #125e76;
+    color: white;
+    text-align: center;
+    margin-top: 3.5em;
+    padding: 6em;
+}
+
+.para2 h {
+    font-size: 4.1em;
+    font-weight: bolder;
+    vertical-align: 30px;
+}
+
+.para2 #p1 {
+    margin-bottom: 50px;
+    font-size: 1.19em;
+}
+
+.para2 #p2 {
+    text-align: left;
+    margin-left: 2.5em;
+    font-size: 18px;
+}
+
+/*Partie3*/
+#l {
+    background-color: #125e76;
+    height: 8px;
+    width: 22%;
+    border-style: none;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+h1 {
+    margin-top: 18px;
+    text-align: center;
+    color: #125e76;
+    font-size: 3.5em;
+    padding-bottom: 1em;
+}
+
+#image {
+    background-color: #adebff;
+    text-align: center;
+    margin-left: 173px;
+    margin-right: 150px;
+    word-spacing: 5em;
+    padding-top: 12em;
+    padding-bottom: 12em;
+}
+
+#image .im {
+    height: 10.5em;
+}
+
+.g1 {
+    font-size: 2em;
+    color: #125e76;
+    margin-left: -830px;
+    margin-bottom: -100px;
+    cursor: pointer;
+}
+
+.d1{
+    font-size: 2em;
+    color: #125e76;
+    margin-left: 830px;
+    margin-top: -120px;  
+    cursor: pointer;
+}
+/*Partie4*/
+#h1 {
+    font-size: 2.7em;
+    margin-top: 1em;
+    margin-bottom: 18px;
+}
+
+.im-te {
+    text-align: center;
+    word-spacing: 230px;
+
+}
+
+.im {
+    height: 8em;
+}
+
+.p4 {
+    border: 2px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    width: 22%;
+    margin-left: 320px;
+    margin-top: -170px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    border-color: #125e76;
+}
+
+.p4 .ad {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.p4 .temoignage {
+    text-align: left;
+    margin-top: 8px;
+    padding-left: 25px;
+}
+
+.p5 {
+    border: 2px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    width: 22%;
+    border-color: #125e76;
+    margin-left: 685px;
+    margin-top: -332px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.p5 .jul {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.p5 .temoignage {
+    text-align: left;
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+.gauche {
+    font-size: 2em;
+    color: #125e76;
+    margin-left: 180px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.droite {
+    font-size: 2em;
+    color: #125e76;
+    margin-left: 1100px;
+    margin-top: -210px;
+    cursor: pointer;
+}
+
+/*Partie5*/
+#l1 {
+    background-color: #125e76;
+    height: 8px;
+    width: 22%;
+    border-style: none;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 220px;
+}
+
+form {
+    background-color: #125e76;
+    border-style: none;
+    margin-left: 165px;
+    margin-right: 100px;
+    margin-top: -20px;
+    padding-left: 200px;
+    padding-top: 30px
+}
+
+input {
+    border-style: none;
+    border-radius: 4px;
+    width: 77%;
+    height: 4em;
+    background-color: #f4f4f4;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+textarea {
+    border-style: none;
+    border-radius: 4px;
+    width: 77%;
+    background-color: #f4f4f4;
+    height: 180px;
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+
+label {
+    color: #f4f4f4;
+    font-weight: bold;
+}
+
+/*footer*/
+footer {
+    background-color: black;
+    margin-top: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #f4f4f4;
+}
+
+.f1 {
+
+    margin-left: 90px;
+}
+
+.fp1 {
+    margin-top: 20px;
+}
+
+.fh1 {
+
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.f2 {
+    margin-left: 550px;
+    margin-top: -210px;
+}
+
+.fh2 {
+
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.fp2 {
+    margin-top: 20px;
+}
+
+.f-ic {
+    background-color: #f4f4f4;
+    color: #125e76;
+    border-style: solid;
+    border-radius: 5px;
+    border-style: none;
+    width: 1.6%;
+    font-size: 1.2em;
+    padding-left: 5px;
+    margin-left: 1200px;
+    margin-top: -150px;
+    cursor: pointer;
+}
+
+.f-ic2 {
+    background-color: #f4f4f4;
+    color: #125e76;
+    border-style: solid;
+    border-radius: 5px;
+    border-style: none;
+    width: 8.2%;
+    font-size: 1.5em;
+    padding-left: 5px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 150px;
+}
+
+.fin {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
